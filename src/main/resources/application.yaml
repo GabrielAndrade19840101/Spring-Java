@@ -1,0 +1,13 @@
+spring:
+  application:
+   name: RentCar
+server:
+ port: 8000
+datasource:
+  url: jdbc:postgresql://localhost:5432/mystore?serverTimeZone=ADT
+  username: postgres
+  password: postdba
+  jpa:
+    hibernate:
+      ddl-auto: update
+      show-sql: true 
